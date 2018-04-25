@@ -1,0 +1,11 @@
+{
+  "presets": ["react", "env"],
+  "plugins": [
+    ["module-resolver", {
+      "root": ["./src"],
+      "alias": {
+        "app": "./src",
+      }
+    }]
+  ]
+}

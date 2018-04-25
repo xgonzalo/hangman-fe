@@ -1,0 +1,13 @@
+.input {
+  margin-top: 40px;
+  position: relative;
+
+  &__field {
+    position: absolute;
+    width: 300px;
+    background-color: transparent;
+    border: 0 none;
+    outline: 0 none;
+    font-size: 22px;
+  }
+}

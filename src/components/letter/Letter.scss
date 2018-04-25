@@ -1,0 +1,20 @@
+.letter {
+  display: block;
+  cursor: pointer;
+
+  &--used {
+    position: relative;
+
+    &:after {
+      content: '';
+      width: 21px;
+      height: 3px;
+      background-color: red;
+      display: block;
+      position: absolute;
+      transform: rotate(-45deg);
+      top: 10px;
+      left: -5px;
+    }
+  }
+}

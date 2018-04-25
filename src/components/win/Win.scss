@@ -1,0 +1,17 @@
+.win {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  &__super {
+    font-size: 100px;
+    margin: 0;
+  }
+
+  &__title {
+    margin: 0 0 100px 0;
+    font-size: 37px;
+  }
+}

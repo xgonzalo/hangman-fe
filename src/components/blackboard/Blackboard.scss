@@ -1,0 +1,17 @@
+.blackboard {
+  background-image: url('../../assets/images/Background.png');
+  height: 100vh;
+
+  &__game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+    &__top {
+      display: flex;
+
+    }
+  }
+}

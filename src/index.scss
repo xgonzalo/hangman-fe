@@ -1,0 +1,32 @@
+@import url(https://fonts.googleapis.com/css?family=Walter+Turncoat);
+
+@keyframes button {
+  0%   {transform: rotate(0deg);}
+  20%  {transform: rotate(-15deg);}
+  40%  {transform: rotate(15deg);}
+  60% {transform: rotate(-15deg);}
+  80% {transform: rotate(15deg);}
+  100% {transform: rotate(-15deg);}
+}
+
+body {
+  margin: 0;
+
+  * {
+    font-family: 'Walter Turncoat';
+    color: white;
+  }
+
+  .btn {
+    transition: all 0.1s ease-in-out;
+    &:hover {
+      animation-name: button;
+      animation-duration: 0.5s;
+      transform: rotate(-15deg);
+    }
+  }
+
+  .hidden {
+    visibility: hidden;
+  }
+}
